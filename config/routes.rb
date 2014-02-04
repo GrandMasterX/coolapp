@@ -9,10 +9,17 @@ Myapp::Application.routes.draw do
   end
     root to: 'main#index'
 
+    resources :albums
 
+    get "albums/index"
+    get "albums/show"
+    get '/albums/new' => 'albums#new'
+    get '/albums/:id' => 'albums#show'
+    
     get "albums/show"
     get "tracks/show"
     get "main/index"
+    get 'main/new'=>'/new'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,11 @@
+<% @albums.each do |album| %>
+    <tr>
+      <td>
+        <%= link_to album.title, album %>
+      </td>
+      <td>
+        <img data-src="holder.js/140x140" class="img-thumbnail" alt="140x140" style="width: 140px; height: 140px;" src="/140rounded.png">
+      </td>
+    </tr>
+<% end %>
+<a href="/albums/new" class="btn btn-primary btn-xs" role="button">Primary link</a>
