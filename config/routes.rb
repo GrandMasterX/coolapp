@@ -1,8 +1,8 @@
 Myapp::Application.routes.draw do
 
-  get 'auth/:provider/callback', to: 'sessions#create'
-  get 'auth/failure', to: redirect('/')
-  get 'signout', to: 'sessions#destroy', as: 'signout'
+  post 'auth/:provider/callback' => 'sessions#create'
+  post 'auth/failure' => redirect('/') 
+  post 'signout' => 'sessions#destroy', as: 'signout' 
   
   resources :main do
     resources :albums
@@ -19,7 +19,6 @@ Myapp::Application.routes.draw do
     get "albums/show"
     get "tracks/show"
     get "main/index"
-    get 'main/new'=>'/new'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
