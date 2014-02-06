@@ -1,0 +1,829 @@
+sudo apt-get install ruby
+sudo gem update --system
+sudo gem install rubygems-update
+update_rubygems
+sudo update_rubygems
+wget http://www.sqlite.org/sqlite-autoconf-3070603.tar.gz
+tar xvfz sqlite-autoconf-3070603.tar.gz
+cd sqlite-autoconf-3070603
+./configure
+make
+\curl -sSL https://get.rvm.io | bash
+sudo apt-get install curl
+\curl -sSL https://get.rvm.io | bash
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+gem install rails
+sudo gem install rails
+rails new -h
+running rails new -h
+cd ..
+cd
+rails new -h
+sudo apt-get install rails
+ls
+rails new -h
+rails new blog
+cd blog
+mkdir rails_projects
+cd rails_projects/
+rails new first_app
+ls
+cd new/
+subl Gemfile
+rails bundle install
+subl Gemfile
+libsubtitles-perl
+sudo libsubtitles-perl
+rails server 
+ruby -v
+rvm get stable
+sudo apt-get install ruby-rvm
+rvm get stable
+curl -L https://get.rvm.io | bash -s
+rvm get stable
+sudo apt-get install ruby-rvm
+rvm requirements
+sudo curl -L https://get.rvm.io | bash -s
+.rvm get stable
+rvm get stable
+sudo apt-get install ruby-rvm
+\curl -sSL https://get.rvm.io | bash -s stable
+sudo \curl -sSL https://get.rvm.io | bash -s stable
+rvm
+sudo apt-get install ruby-rvm
+--tails
+--rails
+sudo apt-get install ruby-rvm --rails
+sudo apt-get install ruby-rvm--rails
+sudo apt-get install ruby-rvm--ruby
+sudo apt-get install ruby-rvm --ruby
+brew install git sqlite
+rvm get stable
+sudo apt-get install ruby-rvm
+sudo apt-get install git-core
+git config —global user.name «GrandMasterX»
+git config —global user.email «zgrandmasterz@gmail.com»
+sudo mkdir -p ~/.rvm/src/ && cd ~/.rvm/src && rm -rf ./rvm/ && git clone —depth 1 git://github.com/wayneeseguin/rvm.git && cd rvm && ./install
+ls
+cd ..
+ls
+cd ..
+ls
+cd .rvm/
+type rvm | head -n1
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext   libz-dev libssl-dev
+sudo apt-get install libcurl4-gnutls-dev libexpat1-dev gettext   libz-dev libssl-dev
+http://git-scm.com/download
+$ apt-get install git
+sudo apt-get install git
+tar -zxf git-1.7.2.2.tar.gz
+cd ..
+tar -zxf git-1.7.2.2.tar.gz
+apt-get install git
+sudo apt-get install git
+git
+git -v
+apt-get update
+sudo apt-get update
+sudo apt-get update && sudo apt-get upgrade
+git
+cd
+gem install bundler
+sudo gem install bundler
+bundle install
+source 'https://rubygems.org'
+gem 'nokogiri'
+ls
+cd rails_projects/
+ls
+cd new/
+git add Gemfile Gemfile.lock
+bundler install
+bundle install
+gem install bundler
+sudo gem install bundler
+source 'https://rubygems.org' gem 'nokogiri' gem 'rack', '~>1.1' gem 'rspec', :require => 'spec'
+bundle install
+git add Gemfile Gemfile.lock
+ls
+bundle exec rspec spec/models
+bundle init
+Bundler.require
+bundle install --without test development
+gem install text-hyphen -v '1.0.2'
+sudo gem install text-hyphen -v '1.0.2'
+Bundler.require
+Bundler.require(:default, Rails.env)
+bundle install --without production
+rails s
+bundle install
+gem install text-hyphen
+sudo gem install text-hyphen
+bundle install
+gem install text-hyphen -v '1.0.2'
+sudo gem install text-hyphen -v '1.0.2'
+bundle install
+sudo bundle install
+sudo gem install ${GEM_PATH}/text-hyphen-1.4.1.gem 
+ruby --version
+cd
+ls
+cd rails_projects/
+ls
+rails test
+rails -v
+rvm list
+gem install rails
+sudo gem install rails
+rvm help
+rvm uninstall
+rvm list
+rvm uninstall 2.1.0
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+rvm list
+ls
+rvm requirments
+rvm requirements
+rvm Gemset list
+rvm gemset list
+gem install rails
+ls
+ln -a
+cd
+ls
+ls -a
+/usr/lib/ruby/
+/usr/lib/ruby/ ln
+ln /usr/lib/ruby/
+ls
+ls /usr/lib/ruby/
+ls /usr/lib/ruby/ -a
+chmod 777 -R /usr/lib/ruby/
+sudo chmod 777 -R /usr/lib/ruby/
+gem install rails
+rvm implode
+rvm -v
+mkdir -p ~/.rvm/src/ && cd ~/.rvm/src && rm -rf ./rvm/ && git clone —depth 1 git://github.com/wayneeseguin/rvm.git && cd rvm && ./install
+rvm install 2.1.0
+type rvm | head -n1
+rvm install 2.1.0
+cd ..
+cd 
+ls
+cd .rvm/
+type rvm | head -n1
+cd bin/
+type rvm | head -n1
+cd ..
+cd rails_projects/
+rvm gemset create blog
+rvm gemset use blog
+sudo apt-get install sqlite3 libsqlite3-dev
+sudo apt-get install sqlite3-ruby
+clear
+sudo apt-get install sqlite3 libsqlite3-dev
+sudo apt-get install sqlite3-ruby
+sudo apt-get install sqlite-ruby
+sudo apt-get install sqlite3-ruby
+sudo apt-get install sqlite3
+sudo apt-get install sqlite-autoconf-3070603 -ruby
+sudo apt-get install sqlite-autoconf-3070603-ruby
+sudo apt-get install sqlite3-ruby
+cd
+sudo apt-get install sqlite3-ruby
+ls
+cd rails_projects/
+ls
+cd new/
+ls
+rails new blog create
+create README
+rails new blog
+ls
+git init
+git status
+git add.
+git add .
+git status
+git add .
+git commit -m ‘initial commit’
+curl -L get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm requirements
+rvmsudo apt-get install build-essential openssl libreadline6 libreadline6-dev curl git-core zlib1g zlib1g-dev libssl-dev libyaml-dev libsqlite3-dev sqlite3 libxml2-dev libxslt-dev autoconf libc6-dev ncurses-dev automake libtool bison subversion
+rvm rubygems current
+gem install rails
+rvm
+rvm -v
+\curl -sSL https://get.rvm.io | bash -s stable --ruby=ruby --gems=rails
+ды
+ls
+cd ..
+ls
+rails -v
+ruby -v
+rvm install ruby 2.1.0
+rvm list
+rvm gemset create blog
+rvm use 2.1.0@blog
+ls
+type rvm | head -1
+nano ~/.bashrc
+source ~/.bashrc
+nano ~/.bashrc
+rvm notes
+nano ~/.bashrc
+sudo rm -rf $HOME/.rvm $HOME/.rvmrc /etc/rvmrc /etc/profile.d/rvm.sh   /usr/local/rvm /usr/local/bin/rvm
+env | grep rvm
+sudo rm -rf $HOME/.rvm $HOME/.rvmrc /etc/rvmrc /etc/profile.d/rvm.sh   /usr/local/rvm /usr/local/bin/rvm
+sudo rm -rf $HOME/.rvm $HOME/.rvmrc /etc/rvmrc /etc/profile.d/rvm.sh   /usr/local/rvm /usr/local/bin/rvm
+sudo /usr/sbin/groupdel rvm
+env | grep rvm
+gem uninstall rvm
+env | grep rvm
+rvm implode
+env | grep rvm
+#!/bin/bash
+/usr/bin/sudo rm -rf $HOME/.rvm $HOME/.rvmrc /etc/rvmrc /etc/profile.d/rvm.sh /usr/local/rvm /usr/local/bin/rvm
+/usr/bin/sudo /usr/sbin/groupdel rvm
+/bin/echo "RVM is removed. Please check all .bashrc|.bash_profile|.profile|.zshrc for RVM source lines and delete
+or comment out if this was a Per-User installation."
+env | grep rvm
+rm -rf /.rvm
+env | grep rvm
+rvm implode
+ln la
+ln -la
+ls
+ls -la
+ls -la ~/.rvm/
+ls -la ~/.rvm/scripts/
+rvm use 2.1.0@blog
+rails g controller albums index show
+gem "twitter-bootstrap-rails"
+rails generate bootstrap:install static
+ls
+cd ..
+git clone https://github.com/seyhunak/twitter-bootstrap-rails.git
+ls
+cd blog/
+gem "twitter-bootstrap-rails"
+git clone https://github.com/seyhunak/twitter-bootstrap-rails.git
+gem "twitter-bootstrap-rails"
+gem twitter-bootstrap-rails
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+clear
+gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
+ubndle install
+bundle install
+gem "twitter-bootstrap-rails"
+rails g bootstrap:layout layout
+gem install twitter-bootstrap-rails
+gem "twitter-bootstrap-rails"
+rails generate bootstrap:install static
+gem install twitter-bootstrap-rails
+gem "twitter-bootstrap-rails", "~> 2.2.8"
+gem 'twitter-bootstrap-rails', github: 'seyhunak/twitter-bootstrap-rails', branch: 'bootstrap3'
+gem 'bootstrap-on-rails'
+ды
+git clone https://github.com/jasontorres/bootstrap-on-rails.git
+rails g bootstrap:layout application fluid
+gem 'bootstrap-on-rails'
+git clone https://github.com/jasontorres/bootstrap-on-rails.git
+gem 'bootstrap-on-rails'
+rails g bootstrap:layout application fluid
+ls
+cd ..
+ls
+got cline https://github.com/GrandMasterX/ruby-on-rails.git
+git cline https://github.com/GrandMasterX/ruby-on-rails.git
+git clone https://github.com/GrandMasterX/ruby-on-rails.git
+cd ruby-on-rails/
+git add .
+git status
+git commit -m "first commit"
+git push
+git status
+git push -u origin master
+git push -u
+пше икфтср
+git branch
+git status
+git branch
+git chechkout -b new
+git checkout -b new
+git branch
+git status
+git add .
+git push
+git pull
+git pull origin master
+git pull origin
+git init
+git commit -m "first commit"
+ды
+ls
+git status
+git add .
+git push
+ls
+cd ..
+ls
+cd blog/
+ls
+rake db:migrate
+gem 'bootstrap-on-rails'
+gem install twitter-bootstrap-rails
+ruby s
+rake s
+rvm gemset use blog
+rvm gemset
+gem "twitter-bootstrap-rails", "~> 2.2.8"
+gem install twitter-bootstrap-rails
+bundle install
+rails generate bootstrap:install static
+ls
+git ls
+git status
+ls
+cd ..
+rails new q
+cp Gemfile ../blog
+cd q/
+cp Gemfile ../blog
+cd
+ls
+mkdir rubyHighlight
+cd rubyHighlight/
+git clone https://github.com/drnic/ruby-tmbundle.git
+sudo apt-get install ia32-libs 
+sudo apt-get install wine
+cd ..
+ls
+cd Загрузки/
+ls
+cd navicat110_premium_en/
+run start_navicat 
+start_navicat
+Run start_navicat
+env | grep rvm
+bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+nano ~/.bashrc
+rvm install ruby-2.1.0
+rvm use 2.1.0@blog
+ruby -v
+gem install rails --no-rdoc
+rails -v
+rails new blog
+rails s
+cd blog/
+rails s
+cd ..
+cd blog/
+rvm list
+rvm gemset list
+rails s
+sudo apt-get node.js
+sudo apt-get nodejs
+sudo apt-get install nodejs
+ls
+rails s
+bundle install
+rails s
+rails server -h
+rails s
+bundle install
+rails s
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext   libz-dev libssl-dev
+ls
+cd ..
+ls
+cd Загрузки/
+ls
+cd PhpStorm/
+./phpstorm.sh
+cd bin/
+./phpstorm.sh
+sudo apt-get purge openjdk*
+udo dpkg -i jdk_1.7.004-1_amd64.deb
+mkdir -p ~/.mozilla/plugins
+ln -s /usr/java/jdk1.7.0_04/jre/lib/amd64/libjavaplugin_jni.so ~/.mozilla/plugins/
+ln -s /usr/java/jdk1.7.0_04/jre/lib/amd64/libnpjp2.so ~/.mozilla/plugins/
+sudo dpkg -i jdk_1.7.004-1_amd64.deb
+mkdir -p ~/.mozilla/plugins
+ln -s /usr/java/jdk1.7.0_04/jre/lib/amd64/libjavaplugin_jni.so ~/.mozilla/plugins/
+ln -s /usr/java/jdk1.7.0_04/jre/lib/amd64/libnpjp2.so ~/.mozilla/plugins/sudo mkdir -p  /usr/lib/jvm/ #just in case
+sudo mv java-7-oracle/ /usr/lib/jvm/sudo mkdir -p  /usr/lib/jvm/ #just in case
+cd
+sudo mkdir -p  /usr/lib/jvm/ #just in case
+sudo mv java-7-oracle/ /usr/lib/jvm/
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install update-java
+sudo update-java
+apt-get install libcurl4-gnutls-dev libexpat1-dev gettext apt-get install libcurl4-gnutls-dev libexpat1-dev gettext   libz-dev libssl-dev
+sudo mkdir -p  /usr/lib/jvm/ #just in case
+A
+sudo mv java-7-oracle/ /usr/lib/jvm/
+ls
+cd Загрузки/
+ls
+sudo mv java-7-oracle/ /usr/lib/jvm/
+sudo add-apt-repository ppa:nilarimogard/webupd8
+sudo apt-get update
+sudo apt-get install update-java
+sudo update-java
+./phpstorm.sh
+cd PhpStorm/
+./phpstorm.sh
+cd bin/
+./phpstorm.sh
+ls
+cd ..
+ls
+cd ..
+ls
+cd rails_projects/
+cd blog/
+ls
+rails g controller albums
+ruby -v
+ls
+rvm use 2.1.0@blog
+rails generate uploader Avatar
+sudo gem install carrierwave
+rails generate uploader Avatar
+gem install carrierwave
+sudo gem install carrierwave
+[sudo] gem install carrierwave
+sudo gem install carrierwave
+gem install carrierwave
+sudo gem install carrierwave
+rails generate paperclip Albuns avatar
+raik db:rallback
+rake db:rallback
+git init
+git add *.c
+git add README
+git commit -m 'initial project version'
+git status
+git add .
+git commit -m 'initial project version'
+git commit 'initial project version'
+cd ..
+ls
+cd ruby-on-rails/
+ls
+cd .git/
+ls
+cd ..
+mvdir .git/ ../blog/
+mv .git/ ../blog/
+cd ..
+cd blog/
+rm dir .git
+rmdir .git
+rm -rf .git
+cd ..
+cd ruby-on-rails/
+ls
+mv .git/ ../blog/
+cd ..
+cd blog/
+ls
+cd .git/
+cd ..
+git commit 'initial project version'
+git add .
+git commit 'initial project version'
+git push
+git remote add origin https://github.com/GrandMasterX/ruby-on-rails.git
+git push -u origin master
+git status
+git add .
+git statu
+git status
+git commit -m 'new commit'
+git config --global user.email 'zgrandmasterz@gmail.com'
+git config --global user.name 'GrandMasterX'
+git commit -m 'new commit'
+git push
+git push origin master
+git push origin
+git push -u origin master
+git branch
+rake db:rallback
+rake db:rollback
+rake db:migrate:redo
+rake db:reset
+rake -T
+rails -v
+rvm -v
+rvm list
+cd .
+rake db:rollback
+rails -v
+exit
+rvm -v
+rails -v
+rvm list
+rvm gemset list
+bundle update rails
+rails -v
+rvm gemset 
+rvm gemset blog --delete
+rvm gemset --delete
+rvm gemset blog delete
+rvm gemset delete
+rvm gemset delete blog
+cd .
+ls
+rails -v
+rvm gemset list
+gem uninstall rails
+rails -v
+gem delete rails
+rails -v
+rvm gemset cd .
+cd .
+rails -v
+bundle 
+cd .
+rvm -v
+rails -v
+cd .
+rails s
+rails -v
+type rvm | head -1
+curl -s raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer | bash -s stable
+$ curl -s raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer | sudo bash -s stable
+[Aq1w2e3
+curl -s raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer | sudo bash -s stable
+sudo apt-get --purge remove ruby-rvm
+sudo apt-get --purge remove rvm
+rm -rf ~/.rvmrc /etc/rvmrc /etc/profile.d/rvm.sh
+env | grep rvm
+source /usr/local/rvm/scripts/rvm
+grep -rn rvm ~/.bash*
+rvm -v && ps aux | grep rvm
+clean
+claer
+clear
+rm -rf .rvm
+cd
+bash < <(curl -s -B https://rvm.beginrescueend.com/install/rvm)
+rvm -v
+rvm get head
+rvm reload
+rvm get stable --auto
+sudo apt-get --purge remove ruby-rvm
+sudo rm -rf /usr/share/ruby-rvm /etc/rvmrc /etc/profile.d/rvm.sh
+env | grep rvm
+rvm implode
+env | grep rvm
+rm -rf ~/.rvm
+\curl -L https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm requirements
+rvm install ruby-2.1.0
+rvm -v
+rails -v
+gem update
+rails -v
+rvm -v
+bundle install
+rails -v
+rvm -v
+bundle update
+rails -v
+gem -v
+gem update --system
+rails -v
+cd .
+rvm -v
+nano ~/.bashrc
+rails generate controller welcome index
+rails generate controller music index
+rails g controller posts
+rake routes
+sqlite3 --version
+gem install sqlite3-ruby
+npm install connect-sqlite3
+sudo apt-get install npm
+npm install connect-sqlite3
+rake db:create
+rails g model music
+rails g model tracks
+rails g model albums
+rake db:migrate
+clear
+rails c
+rvm -v
+rails -v
+ls
+cd rails_projects/
+cd blog/
+rails -v
+rm -rf ~/.rvmrc /etc/rvmrc /etc/profile.d/rvm.sh
+env | grep rvm
+source "/usr/local/rvm/scripts/rvm"
+source "$HOME/.rvm/scripts/rvm"
+ls
+cd rails_projects/
+cd blog/
+ls
+rails -v
+rvm implode
+rm -rf ~/.rvm
+nano ~/.bashrc
+rm -rf ~/.rvm
+gem uninstall rvm
+apt-get remove ruby-rvm
+sudo apt-get remove ruby-rvm
+\curl -L https://get.rvm.io | bash -s stable
+source ~/.rvm/scripts/rvm
+rvm requirements
+bash -s stable < <(curl -s https://raw.github.com/wayneeseguin/rvm/master/binscripts/rvm-installer)
+nano ~/.bashrc
+source ~/.bashrc
+type rvm | head -1
+rvm install 1.9.3
+rvm use system
+rails s
+rails server
+rvm use system
+clear
+rails s
+rails -v
+rvm use system
+ды
+ДЫ
+ls
+cd rails_projects/
+cd blog/
+ls
+rvm -v
+rails -v
+rvm install ruby-2.1.0
+bundle install
+gem -v
+gem update --system
+gem list
+gem update rake
+gem update bundler
+gem update rubygems-bundler
+rails -v
+cd blog/rails s
+cd blog/rails server
+rails -v
+gem update rubygems-bundler
+rails -v
+ls -l
+ls -la
+cat Gemfile
+cat ../q/Gemfile 
+rvm gemset list
+gems
+gem list
+rails -v
+rm -rf ~/.rvm/
+rvm
+nano ~/.bashrc
+rvm
+[3;2~\curl -sSL https://get.rvm.io | bash -s stable --ruby
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
+exit
+rvm -v
+exit
+rvm use system
+rails -v
+bundle install
+gem -v
+gem list
+gem update rake
+gem update bundler
+gem update rubygems-bundler
+rails -v
+bundle update rails
+gem install atomic -v
+gem install atomic -v '1.1.14'
+sudo gem install atomic -v '1.1.14'
+rails -v
+cd .
+rails -v
+exit
+type rvm | head -n 1
+cd rails_projects/blog/
+rails -v
+rvm gemset list
+gem list
+bundle
+cd .
+rails -v
+exit
+sudo apt-get remove rails
+rails -v
+history | grep rails
+exit
+cd rails_projects/bl
+cd rails_projects/blog/
+rails -v
+rake db:reset
+rake -T
+cd ..
+$ rails new myapp -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
+rails new myapp -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
+rvm use 2.1.0@testtask
+rails new myapp -m https://raw.github.com/RailsApps/rails-composer/master/composer.rb
+mv myapp/ coolapp
+cd coolapp/
+git init
+git st 
+git status
+ls -la
+cat .ruby-
+cat .ruby-version 
+cat .ruby-gemset 
+git st
+git add .
+git status
+git add -A
+git status
+ls
+bundle
+sudo apt-get mysqlserver
+sudo apt-get install mysql-server-5.1 mysql-client-5.1 
+sudo apt-get install mysql-server
+rails -v
+bundle install
+gem install mysql2 -v '0.3.15'
+bundle install
+rails -v
+bundle
+gem install mysql2
+rails -v
+bundle install
+gem install mysql2 -v '0.3.15'
+gem install mysql2
+sudo apt-get libmysqlclient-dev
+apt-get is installing libmysqlclient-dev-5.5
+sudo apt-get install libmysqlclient-dev
+bundle install
+rails -v
+rails s
+bundle install
+rails s
+ls
+rails -v
+rails s
+cd
+cd rails_projects/coolapp/
+rails s
+rails server
+clear
+rails server
+св юю
+cd ..
+git clone https://github.com/wetunein/api_tunehog.git
+cd magazine/
+ls
+bundle
+rails s
+cd .
+cd
+nano /etc/hosts
+sudo nano /etc/hosts
+cd .
+cd
+ls
+cd rails_projects/
+cd magazine/
+cap qa deploy
+cd ~/.ssh/
+ls
+ssh-keygen -t rsa -C "zgrandmasterz@gmail.com"
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+ls
+nano id_rsa.pub
+nano id_rsa
+nano ssh-add
+cap qa deploy
+cd
+ls
+cd rails_projects/
+cd magazine/
+cap qa deploy
+cd ..
+ls
+cd coolapp/
+git add .
+git commit -m 'saving data, need make image upload'
+git push
+git add .
+git commit -m 'making carousel on main page'
+git push
+hystory
+history
+program_with_lots_of_output > output.log
+history -w history-list.txt
