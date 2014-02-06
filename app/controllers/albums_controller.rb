@@ -7,12 +7,12 @@ class AlbumsController < ApplicationController
   end
 
   def create
-        @post = Albums.new(params[:post].permit(:title, :text))
+    Albums.create(album_params)      
+  end
 
-        if @post.save
-            redirect_to @post
-        else
-            render 'new'
-        end
-    end
+  private
+
+  def album_params
+    params.required(:albums).permit(:title,:image,:genre)
+  end
 end

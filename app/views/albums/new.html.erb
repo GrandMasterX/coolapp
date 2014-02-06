@@ -1,7 +1,7 @@
 
 <%= form_for :post do |f| %>
-  title: <%= f.text_field :first_name %>
-  genre : <%= f.text_field :last_name %>
-  file : <%= text_area :person, :biography %>
+  title: <%= f.text_field :title %>
+  genre : <%= f.text_field :genre %>
+  file : <%= file_field(:post, :cover, accept: 'image/png,image/gif,image/jpeg') %>
   <%= f.submit %>
 <% end %>

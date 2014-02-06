@@ -51,6 +51,9 @@ gem 'mysql2'
 gem 'omniauth'
 gem 'omniauth-facebook'
 gem 'slim-rails'
+gem 'rmagick'
+gem 'carrierwave'
+gem 'binding_of_caller'
 
 group :development do
   gem 'better_errors'
