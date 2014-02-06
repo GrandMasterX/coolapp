@@ -1,15 +1,15 @@
 class MainController < ApplicationController
 
 	def index
-		@albums = Albums.all
+		@albums = Album.all
 	end
 
 	def new
-		@albums = Albums.new
+		@albums = Album.new
 	end
 
 	def create
-		@post = Albums.new(params[:post].permit(:title, :text))
+		@post = Album.new(params[:post].permit(:title, :text))
 
 		if @post.save
 		    redirect_to @post
@@ -19,7 +19,7 @@ class MainController < ApplicationController
 	end
 
 	def show
-		@post = Albums.find(params[:id])
+		@post = Album.find(params[:id])
 	end
 
 end

@@ -1,18 +1,24 @@
 class AlbumsController < ApplicationController
+
+  def index
+    @albums = Album.all
+  end
+
   def show
-    @albums = Albums.all
+    @album = Album.find(params[:id])
   end
 
   def new
+    @album = Album.new
   end
 
   def create
-    @albums = Albums.new(params[:post])
+    @album = Album.new(params[:album])
  
-    if @albums.save
+    if @album.save
       flash[:notice] = 'Album was successfully created.'
       flash[:color]= "valid"
-      redirect_to @albums
+      redirect_to @album
     else
       flash[:notice] = "Fail when saiving"
       flash[:color]= "invalid"
@@ -21,9 +27,24 @@ class AlbumsController < ApplicationController
 
   end
 
+  def edit
+    @album = Album.find(params[:id])
+  end
+
+  def update
+    @album = Album.find(params[:id])
+   
+    if @album.update(album_params)
+      redirect_to @album
+    else
+      render 'edit'
+    end
+  end
+
   #private
 
   #def album_params
-  #  params.required(:albums).permit(:title,:image,:genre)
- # end
+  #  params.require(:album).permit(:title, :genre,)
+  #end
+
 end

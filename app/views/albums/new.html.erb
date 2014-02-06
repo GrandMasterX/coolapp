@@ -1,5 +1,19 @@
 
-<%= form_for :post, url: 'create', html: { role: "form"} do |f| %>
+<%= form_for :album, url: 'create', html: { role: "form"} do |f| %>
+
+<% if @album.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@album.errors.count, "error") %> prohibited
+      this album from being saved:</h2>
+    <ul>
+    <% @album.errors.full_messages.each do |msg| %>
+      <li><%= msg %></li>
+    <% end %>
+    </ul>
+  </div>
+  <% end %>
+
+
   <div class="form-group">
   	title: <%= f.text_field :title, class: "form-control" %>
   </div>
@@ -7,7 +21,7 @@
   	genre : <%= f.text_field :genre, class: "form-control" %>
   </div>
   <div class="form-group">
-  	file : <%= file_field(:post, :cover, accept: 'image/png,image/gif,image/jpeg') %>
+  	file : <%= file_field(:album, :image) %>
   </div>
   <%= f.submit class:'btn btn-default'%>
 <% end %>
