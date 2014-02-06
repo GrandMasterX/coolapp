@@ -54,6 +54,7 @@ gem 'slim-rails'
 gem 'rmagick'
 gem 'carrierwave'
 gem 'binding_of_caller'
+gem 'protected_attributes'
 
 group :development do
   gem 'better_errors'

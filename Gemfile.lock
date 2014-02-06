@@ -122,6 +122,8 @@ GEM
       oauth2 (~> 0.9.3)
       omniauth (~> 1.2)
     polyglot (0.3.3)
+    protected_attributes (1.0.5)
+      activemodel (>= 4.0.1, < 5.0)
     quiet_assets (1.0.2)
       railties (>= 3.1, < 5.0)
     rack (1.5.2)
@@ -221,6 +223,7 @@ DEPENDENCIES
   mysql2
   omniauth
   omniauth-facebook
+  protected_attributes
   quiet_assets
   rails (= 4.0.2)
   rails_layout

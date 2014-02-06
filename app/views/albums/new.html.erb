@@ -1,7 +1,13 @@
 
-<%= form_for :post do |f| %>
-  title: <%= f.text_field :title %>
-  genre : <%= f.text_field :genre %>
-  file : <%= file_field(:post, :cover, accept: 'image/png,image/gif,image/jpeg') %>
-  <%= f.submit %>
+<%= form_for :post, url: 'create', html: { role: "form"} do |f| %>
+  <div class="form-group">
+  	title: <%= f.text_field :title, class: "form-control" %>
+  </div>
+  <div class="form-group">
+  	genre : <%= f.text_field :genre, class: "form-control" %>
+  </div>
+  <div class="form-group">
+  	file : <%= file_field(:post, :cover, accept: 'image/png,image/gif,image/jpeg') %>
+  </div>
+  <%= f.submit class:'btn btn-default'%>
 <% end %>
