@@ -1,13 +1,13 @@
 <ul class="thumbnails">
     <ol class="carousel-indicators">
       <% @albums.each do |album| %>
-        <li data-target="#carousel-example-generic" data-slide-to="<%= album.id%>"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="<%= album.id%>" <% if album.id==28 %>class="active"<% end %>></li>
       <% end %>
     </ol>
 
     <div class="carousel-inner">
       <% @albums.each do |album| %>
-        <div class="item active">
+        <div class="item <% if album.id==28 %>active<% end %>">
           <img src="http://placehold.it/140x140" alt="">
           <div class="carousel-caption">
             <%= album.title%>
