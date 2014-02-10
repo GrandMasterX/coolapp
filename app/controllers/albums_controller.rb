@@ -10,10 +10,12 @@ class AlbumsController < ApplicationController
 
   def new
     @album = Album.new
+    @album.image = params[:image]
   end
 
   def create
     @album = Album.new(params[:album])
+    @album.image = params[:image]
  
     if @album.save
       flash[:notice] = 'Album was successfully created.'
@@ -34,17 +36,18 @@ class AlbumsController < ApplicationController
   def update
     @album = Album.find(params[:id])
    
-    if @album.update(album_params)
+    if @album.update(params[:album])
       redirect_to @album
     else
       render 'edit'
     end
   end
 
-  #private
-
-  #def album_params
-  #  params.require(:album).permit(:title, :genre,)
-  #end
-
+  def destroy
+    @article = Album.find(params[:id])
+    @article.destroy
+ 
+    redirect_to articles_path
+  end
+  
 end

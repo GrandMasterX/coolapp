@@ -1,26 +1,75 @@
-<ul class="thumbnails">
-    <ol class="carousel-indicators">
-      <% @albums.each do |album| %>
-        <li data-target="#carousel-example-generic" data-slide-to="<%= album.id%>" <% if album.id==28 %>class="active"<% end %>></li>
-      <% end %>
-    </ol>
+<!--<div class="bs-example">
+  <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel" style="width:300px;">
+    <ul class="thumbnails">
+        <ol class="carousel-indicators">
+          <% @albums.each do |album| %>
+            <li data-target="#carousel-example-generic" data-slide-to="<%= album.id%>" <% if album.id==28 %>class="active"<% end %>></li>
+          <% end %>
+        </ol>
 
-    <div class="carousel-inner">
-      <% @albums.each do |album| %>
-        <div class="item <% if album.id==28 %>active<% end %>">
-          <img src="http://placehold.it/140x140" alt="">
-          <div class="carousel-caption">
-            <%= album.title%>
-          </div>
+        <div class="carousel-inner">
+          <% @albums.each do |album| %>
+            <div class="item <% if album.id==28 %>active<% end %>">
+              <img src="<%= album.image%>" alt="">
+              <div class="carousel-caption">
+                <a href="/albums/edit/<%= album.id%>"><%= album.title%></a>
+              </div>
+            </div>
+          <% end %>
         </div>
-      <% end %>
-    </div>
-    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-      <span class="icon-prev"></span>
-    </a>
-    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-      <span class="icon-next"></span>
-    </a>
-</ul>
 
-<a href="/albums/new" class="btn btn-primary btn-xs" role="button">Primary link</a>
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </ul>
+  </div>
+</div>
+-->
+
+
+<% @albums.each do |album| %>
+<article class="widget-ourWork widget-content widget-projection-widget widget">
+  <article class="content-item music-video">
+    <header>
+    </header>
+    <div class="page-header">
+        <h1><%= album.title%></h1>
+    </div>
+    <div class="post-description">
+        <a href="/albums/edit/<%= album.id%>"><p></p><p><img width="260" height="180" alt="<>" src="<%= album.image%>"></p><p></p></a>
+    </div>
+
+    <% album.track.each do |track|%>
+      <article class="content-item music-video">
+      <header>
+      </header>
+      <div class="page-header">
+          <h1><%= track.title%></h1>
+      </div>
+        <div class="post-description">
+          <a href="/tracks/edit/<%= track.id%>"><p></p><p><img width="40" height="40" alt="<%= track.title%>" src="<%= track.cover%>"></p><p></p></a>
+      </div>
+      </article>
+    <% end %>
+
+  </article>
+</article>
+<% end %>
+
+<article class="widget-ourWork widget-content widget-projection-widget widget">
+<% @tracks.each do |track| %>
+  <article class="content-item music-video">
+    <header>
+    </header>
+    <div class="page-header">
+        <h1><%= track.title%></h1>
+    </div>
+    <div class="post-description">
+        <a href="/tracks/edit/<%= track.id%>"><p></p><p><img width="260" height="180" alt="grøn tuborg" src="<%= track.cover%>"></p><p></p></a>
+    </div>
+  </article>
+<% end %>
+</article>

@@ -55,6 +55,7 @@ gem 'rmagick'
 gem 'carrierwave'
 gem 'binding_of_caller'
 gem 'protected_attributes'
+gem 'mini_magick'
 
 group :development do
   gem 'better_errors'

@@ -1,0 +1,41 @@
+<p>
+  <strong>Title:</strong>
+  <%= @album.title %>
+</p>
+ 
+<p>
+  <strong>genre:</strong>
+  <%= @album.genre %>
+</p>
+ 
+<h2>Add a music:</h2>
+<%= form_for([@album, @album.track.build] , :html => {:multipart => true}) do |f| %>
+  
+
+  <p>
+    <label>add title</label>
+    <%= f.text_field :title %>
+  </p>
+
+  <p>
+    <label>add genre</label>
+    <%= f.text_field :genre %>
+  </p>
+
+  <p>
+    <label>add cover</label>
+    <%= f.file_field :cover %>
+  </p>
+
+  <p>
+    <label>add music</label>
+    <%= f.file_field :file %>
+  </p>
+
+  <%= f.hidden_field :album_id %>
+
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+ 

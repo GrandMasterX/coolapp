@@ -10,17 +10,44 @@ Myapp::Application.routes.draw do
     root to: 'main#index'
 
     resources :albums
+    resources :tracks
 
     get "albums/index"
     get "albums/show"
-    get '/albums/new' => 'albums#new'
-    get '/albums/:id' => 'albums#show'
-    post '/albums/create' => 'albums#create'
-    post '/albums/new' => 'albums#new'
-    
-    get "albums/show"
-    get "tracks/show"
+    get 'tracks/show'
     get "main/index"
+
+    get 'albums/:id' => 'albums#show'
+    get 'tracks/:id' => 'tracks#show'
+    get 'tracksforalbums/:id' => 'tracksforalbums#show'
+
+    get 'albums/new' => 'albums#new'
+    get 'tracks/new' => 'tracks#new'
+
+    get 'albums/edit/:id' => 'albums#edit'
+    get 'tracks/edit/:id' => 'tracks#edit'
+    
+    get 'albums/delete/:id' => 'albums#destroy'
+    get 'tracks/delete/:id' => 'tracks#destroy'
+    
+    
+    
+    
+    
+
+    post '/albums/create' => 'albums#create'
+    post '/tracks/create' => 'tracks#create'
+    post '/tracksforalbums/create' => 'tracksforalbums#create'
+
+    post '/albums/new' => 'albums#new'
+    post '/tracks/new' => 'tracks#new'
+
+    post '/albums/edit' => 'albums#edit'
+    post '/tracks/edit' => 'tracks#edit'
+
+    resources :albums do
+      resources :tracks
+    end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
