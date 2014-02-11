@@ -33,27 +33,23 @@ $ ->
 
   return
 
+$ ->
+  $(".content-item.music-video").draggable helper: "clone"
+  $(".widget-projection-widget").droppable
+    hoverClass: "dropHere"
+    drop: (event, ui) ->
+      $(this).append $("<article class=\"content-item music-video\">"+ui.draggable.html()+"</article>")
+      console.log $(this)
 
+      $.ajax
+      type: 'POST',
+      contentType: "application/json",
+      headers: "Content-Type": "application/json",
+      url: "http://localhost:3000/tracks/changealbum/"+ui.draggable.attr("id")
+      data: 
+        album_id: $(this).attr("id")
+      success: (data, textStatus, jqXHR) ->
+        console.log data
+      return
 
-dragStart = (ev) ->
-  ev.dataTransfer.effectAllowed = "copy"
-  ev.dataTransfer.setData "Text", ev.target.getAttribute("id")
-  true
-
-
-dragEnter = (ev) ->
-  event.preventDefault()
-  true
-
-
-dragOver = (ev) ->
-  false
-
-
-dragDrop = (ev) ->
-  eleid = ev.dataTransfer.getData("Text")
-  ev.target.appendChild document.getElementById(eleid)
-  ev.preventDefault()
   return
-
-

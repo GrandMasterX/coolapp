@@ -118,7 +118,10 @@ GEM
     omniauth (1.2.1)
       hashie (>= 1.2, < 3)
       rack (~> 1.0)
-    omniauth-facebook (1.6.0)
+    omniauth-facebook (1.4.1)
+      omniauth-oauth2 (~> 1.1.0)
+    omniauth-github (1.0.3)
+      omniauth (~> 1.0)
       omniauth-oauth2 (~> 1.1)
     omniauth-oauth2 (1.1.2)
       faraday (>= 0.8, < 0.10)
@@ -228,8 +231,8 @@ DEPENDENCIES
   jquery-ui-rails
   mini_magick
   mysql2
-  omniauth
-  omniauth-facebook
+  omniauth-facebook (~> 1.4.1)
+  omniauth-github (~> 1.0.3)
   protected_attributes
   quiet_assets
   rails (= 4.0.2)

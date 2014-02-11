@@ -45,6 +45,12 @@ class TracksController < ApplicationController
     end
   end
 
+  def changealbum
+    @track = Track.find(params[:id])
+    @track.update_attribute :album_id, params[:album_id]
+    render nothing: true
+  end
+
   def destroy
     @track = Track.find(params[:id])
     @track.destroy

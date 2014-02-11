@@ -2,7 +2,7 @@ class MainController < ApplicationController
 
 	def index
 		@albums = Album.all
-		@tracks = Track.all
+		@tracks = Track.where(album_id: nil)
 	end
 
 	def new

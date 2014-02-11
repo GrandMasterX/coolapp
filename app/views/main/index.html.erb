@@ -31,7 +31,7 @@
 
 
 <% @albums.each do |album| %>
-<article dropzone="copy" ondragenter="return dragEnter(event)" ondragover=" return dragOver(event)" ondrop="return dragDrop(event)" id="<%= album.id%>" class="widget-ourWork widget-content widget-projection-widget widget">
+<article id="<%= album.id%>" class="widget-ourWork widget-content widget-projection-widget widget">
   <article class="content-item music-video">
     <header>
     </header>
@@ -66,7 +66,7 @@
 
 <article id="tracks" class="widget-ourWork widget-content widget-projection-widget widget">
 <% @tracks.each do |track| %>
-  <article draggable='true' class="content-item music-video">
+  <article class="content-item music-video" id="<%= track.id%>">
     <header>
     </header>
     <div class="page-header">

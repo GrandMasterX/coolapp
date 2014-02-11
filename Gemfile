@@ -50,8 +50,8 @@ gem 'sqlite3'
 gem 'bootstrap-sass', '~> 2.3.2.2'
 gem 'figaro'
 gem 'mysql2'
-gem 'omniauth'
-gem 'omniauth-facebook'
+gem "omniauth-github", "~> 1.0.3"
+gem "omniauth-facebook", "~> 1.4.1"
 gem 'slim-rails'
 gem 'rmagick'
 gem 'carrierwave'
