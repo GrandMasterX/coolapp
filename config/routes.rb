@@ -13,6 +13,7 @@ Myapp::Application.routes.draw do
     resources :tracks
 
     get "albums/index"
+    get 'tracks/index'
     get "albums/show"
     get 'tracks/show'
     get "main/index"
@@ -29,11 +30,6 @@ Myapp::Application.routes.draw do
     
     get 'albums/delete/:id' => 'albums#destroy'
     get 'tracks/delete/:id' => 'tracks#destroy'
-    
-    
-    
-    
-    
 
     post '/albums/create' => 'albums#create'
     post '/tracks/create' => 'tracks#create'

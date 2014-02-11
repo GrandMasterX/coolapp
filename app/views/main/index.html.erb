@@ -39,7 +39,7 @@
         <h1><%= album.title%></h1>
     </div>
     <div class="post-description">
-        <a href="/albums/edit/<%= album.id%>"><p></p><p><img width="260" height="180" alt="<>" src="<%= album.image%>"></p><p></p></a>
+        <a href="/albums/edit/<%= album.id%>"><p></p><p><img width="150" height="120" alt="<>" src="<%= album.image%>"></p><p></p></a>
     </div>
 
     <% album.track.each do |track|%>
@@ -59,7 +59,7 @@
 </article>
 <% end %>
 
-<article class="widget-ourWork widget-content widget-projection-widget widget">
+<article id="tracks" class="widget-ourWork widget-content widget-projection-widget widget">
 <% @tracks.each do |track| %>
   <article class="content-item music-video">
     <header>
@@ -68,7 +68,7 @@
         <h1><%= track.title%></h1>
     </div>
     <div class="post-description">
-        <a href="/tracks/edit/<%= track.id%>"><p></p><p><img width="260" height="180" alt="grøn tuborg" src="<%= track.cover%>"></p><p></p></a>
+        <a href="/tracks/edit/<%= track.id%>"><p></p><p><img width="40" height="40" alt="grøn tuborg" src="<%= track.cover%>"></p><p></p></a>
     </div>
   </article>
 <% end %>

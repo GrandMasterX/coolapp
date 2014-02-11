@@ -1,4 +1,3 @@
-
 <%= form_for :album, url: 'create', html: { role: "form"} do |f| %>
   <div class="form-group">
   	title: <%= f.text_field :title, class: "form-control" %>
@@ -7,7 +6,7 @@
   	genre : <%= f.text_field :genre, class: "form-control" %>
   </div>
   <div class="form-group">
-  	file : <%= f.file_field :image %>
+  	cover : <%= f.file_field :image %>
   </div>
   <%= f.submit class:'btn btn-default'%>
 <% end %>
