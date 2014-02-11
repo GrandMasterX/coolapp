@@ -1,8 +1,8 @@
-<h1>Editing album</h1>
+<h1>Editing track</h1>
  
 <%= link_to 'Back', track_path %>
 
-<%= form_for(@track, method: :patch, :html => {:multipart => true}) do |f| %>
+<%= form_for :track, url: track_path(@track), method: :patch do |f| %>
   <div class="form-group">
     <label for="exampleInputEmail1">Title</label>
     <%= f.text_field :title, id:'exampleInputEmail1', class:'form-control' %>

@@ -17,8 +17,7 @@ class ImageUploader < CarrierWave::Uploader::Base
   # Override the directory where uploaded files will be stored.
   # This is a sensible default for uploaders that are meant to be mounted:
   def store_dir
-    "uploads/"
-    #"uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
+    "uploads/#{model.class.to_s.underscore}/#{mounted_as}/#{model.id}"
   end
 
   # Provide a default URL as a default if there hasn't been a file uploaded:
@@ -37,14 +36,12 @@ class ImageUploader < CarrierWave::Uploader::Base
   # end
 
   # Create different versions of your uploaded files:
-  version :thumb do
-    process :resize_to_limit => [140, 140]
-  end
 
   # Add a white list of extensions which are allowed to be uploaded.
   # For images you might use something like this:
   def extension_white_list
-    %w(jpg jpeg gif png mp3 mpeg)
+    %w(jpg jpeg gif png mp3 wav wma ogg pdf doc docx xls xlsx audio mpeg 3ga 3gp 3g2 3gpp 3gp2 m4a m4b m4p m4v m4r mp4 aac flac flv avi asf wma wmv dpx mkv mka mks bwf mpg mpeg mp1 mp2 mp3 
+      m1v m1a m2a mpa mpv rm mov ogm ogg ogv oga ogx nut riff webm weba wav mxf asx ts aiff aif aifc au snd caf)
   end
 
   #uploaders/image_uploader.rb
