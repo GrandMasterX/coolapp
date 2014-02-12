@@ -23,12 +23,15 @@ $ ->
 	    return
 $ ->
 	$(".counts a").on "click", ->
-  $that = this
+
+  $that = $(this)
+
   $(this).parent().parent().find(".tracks").toggle "slow", ->
-    if $($that).text is "hide all"
-      $($that).text "show all"
+    if $that.text is "show all"
+      $that.text "hide all"
     else
-      $($that).text "hide all"
+      $that.text "show all"
+
     return
 
   return

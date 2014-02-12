@@ -5,6 +5,11 @@ Myapp::Application.routes.draw do
   #post 'auth/failure' => redirect('/') 
   #post 'signout' => 'sessions#destroy', as: 'signout' 
   devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
+
+  devise_scope :user do
+    get 'sign_in'=> 'devise/sessions#new'
+    get 'sign_out' => 'devise/sessions#destroy'
+  end
   
   resources :main do
     resources :albums

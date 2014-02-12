@@ -3,18 +3,22 @@ class ApplicationController < ActionController::Base
 
 	rescue_from OmniAuth::Strategies::OAuth2::CallbackError, :with =>
 		:omniauth_callback_error_handler
+		
+	def after_sign_in_path_for(resource_or_scope)
+	   if request.env['omniauth.origin']
+	      request.env['omniauth.origin']
+	    end
+	end
 
 	protected
 
-	def omniauth_callback_error_handler
-		redirect_to init_sign_in_users_path
-	end
-	
 	def redirect_to_failure
 	  message_key = env['omniauth.error.type']
 	  new_path = "#{env['SCRIPT_NAME']}#{OmniAuth.config.path_prefix}/failure?message=#{message_key}"
 	  Rack::Response.new(["302 Moved"], 302, 'Location' => new_path).finish
 	end
+
+	
   
   private
 	def current_user

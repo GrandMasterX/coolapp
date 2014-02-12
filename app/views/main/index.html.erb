@@ -43,7 +43,7 @@
           <p>
             </p>
               <p>
-              <% if album.image %>
+              <% if !album.image.nil? %>
                 <img width="150" height="120" alt="" src="<%= album.image%>">
               <% else %>
                 <img width="150" height="120" alt="<>" src="/uploads/pig.png">
@@ -106,7 +106,7 @@
           <p>
             </p>
               <p>
-              <% if track.cover %>
+              <% if !track.cover.nil? %>
                 <img width="40" height="40" alt="grøn tuborg" src="<%= track.cover%>">
               <% else %>
                 <img width="40" height="40" alt="grøn tuborg" src="/uploads/pig.png">
