@@ -12,6 +12,7 @@ Myapp::Application.routes.draw do
     resources :albums
     resources :tracks
 
+    post 'tracks/changealbum/:id' =>'tracks#changealbum'
     get "albums/index"
     get 'tracks/index'
     get "albums/show"
