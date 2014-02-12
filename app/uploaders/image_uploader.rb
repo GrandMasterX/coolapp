@@ -27,6 +27,10 @@ class ImageUploader < CarrierWave::Uploader::Base
   #
   #   "/images/fallback/" + [version_name, "default.png"].compact.join('_')
   # end
+  ActionController::Base.helpers.asset_path("pig.png")
+  def default_url
+    '/images/pig.png'
+  end
 
   # Process files as they are uploaded:
   # process :scale => [200, 300]

@@ -39,7 +39,19 @@
         <h1><%= album.title%></h1>
     </div>
     <div class="post-description">
-        <a href="/albums/edit/<%= album.id%>"><p></p><p><img width="150" height="120" alt="<>" src="<%= album.image%>"></p><p></p></a>
+        <a href="/albums/edit/<%= album.id%>">
+          <p>
+            </p>
+              <p>
+              <% if album.image %>
+                <img width="150" height="120" alt="" src="<%= album.image%>">
+              <% else %>
+                <img width="150" height="120" alt="<>" src="/uploads/pig.png">
+              <% end %>  
+              </p>
+            <p>
+          </p>
+        </a>
     </div>
     <% if album.track.count >0 %>
       <div class="counts">Tracks in album = <%= album.track.count%> <a>show all</a>
@@ -54,7 +66,24 @@
             <h1><%= track.title%></h1>
         </div>
           <div class="post-description">
-            <a href="/tracks/edit/<%= track.id%>"><p></p><p><img width="40" height="40" alt="<%= track.title%>" src="<%= track.cover%>"></p><p></p></a>
+            <a href="/tracks/edit/<%= track.id%>">
+              <p>
+                </p>
+                  <p>
+                  <% if track.cover %>
+                    <img width="40" height="40" alt="" src="<%= track.cover%>">
+                  <% else %>
+                    <% if album.image %>
+                      <img width="40" height="40" alt="" src="<%= album.image%>">
+                    <% else %>
+                      <img width="40" height="40" alt="" src="/uploads/pig.png">
+                    <% end %>
+                  <% end %>
+                  </p>
+                  </p>
+                <p>
+              </p>
+            </a>
         </div>
         </article>
       <% end %>
@@ -73,7 +102,19 @@
         <h1><%= track.title%></h1>
     </div>
     <div class="post-description">
-        <a href="/tracks/edit/<%= track.id%>"><p></p><p><img width="40" height="40" alt="grøn tuborg" src="<%= track.cover%>"></p><p></p></a>
+        <a href="/tracks/edit/<%= track.id%>">
+          <p>
+            </p>
+              <p>
+              <% if track.cover %>
+                <img width="40" height="40" alt="grøn tuborg" src="<%= track.cover%>">
+              <% else %>
+                <img width="40" height="40" alt="grøn tuborg" src="/uploads/pig.png">
+              <% end %>
+              </p>
+            <p>
+          </p>
+        </a>
     </div>
   </article>
 <% end %>

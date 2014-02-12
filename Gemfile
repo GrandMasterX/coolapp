@@ -58,6 +58,7 @@ gem 'carrierwave'
 gem 'binding_of_caller'
 gem 'protected_attributes'
 gem 'mini_magick'
+gem 'devise'
 
 group :development do
   gem 'better_errors'
